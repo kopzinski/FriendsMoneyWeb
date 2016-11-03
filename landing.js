@@ -6,7 +6,7 @@ Little 'SERVER' to deploy out App on some port.
 // set up ======================================================================
 var express = require('express');
 var app = express(); 						// create our app w/ express
-var port = process.env.PORT || 8080; 				// set the port
+var port = process.env.PORT || 80; 				// set the port
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
